@@ -1,8 +1,8 @@
 
 function Header(){
     return(
-        <header className="z-20 sticky top-0 w-full bg-amber-50 flex flex-row border-b-2 border-b-black">
-            <div className="w-full p-4 flex flex-row justify-between">
+        <header className="z-20 sticky top-0 w-full bg-amber-50 flex flex-row border-b-4 border-b-black">
+            <div className="w-full p-8 flex flex-row justify-between">
                 <div>
                     <p>Vaughn</p>
                 </div>
