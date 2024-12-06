@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col z-0 min-h-screen bg-amber-50 '>
+      <div className='flex flex-col z-0 min-h-screen bg-custom-beige '>
         <Header/>
         <Main/>
         <Footer/>
