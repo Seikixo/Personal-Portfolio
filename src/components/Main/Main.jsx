@@ -4,18 +4,18 @@ import WhatIDo from './WhatIDo.jsx'
 
 function Main(){
     return(
-        <div className='min-h-screen grid grid-rows-3 grid-cols-1 z-10'>
-            <div className='row-span-1'>
+        <div className='grid min-h-screen grid-rows-3 grid-cols-1 z-10'>
+            <header className='row-span-1'>
                 <About/>
-            </div>
+            </header>
 
-            <div className='row-span-2'>
+            <main className='row-span-2'>
                 <Experience/>
-            </div>
+            </main>
 
-            <div className='row-span-3'>
+            <footer className='row-span-3'>
                 <WhatIDo/>
-            </div>    
+            </footer>    
         </div>
     );
 }
