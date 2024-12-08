@@ -4,28 +4,28 @@
 
 @layer utilities {
     .about-container{
-        @apply grid grid-cols-2 grid-rows-1 h-[90vh] z-20 
-        md:h-screen md:flex md:flex-col
+        @apply grid grid-cols-2 grid-rows-1 z-30 
+        lg:flex lg:flex-col
     }
 
     .about-content1{
-        @apply grid grid-rows-2 grid-cols-1 p-8
+        @apply grid grid-rows-2 grid-cols-1 p-8 min-h-screen
 
     }
 
     .about-content2{
-        @apply bg-x-pattern h-[90vh] grid grid-cols-3 grid-rows-4 border-l-4 border-black 
-        md:p-4 md:border-t-4 md:border-l-0
+        @apply grid grid-cols-3 grid-rows-4 relative bg-x-pattern min-h-screen  border-l-4 border-black 
+        lg:border-t-4 lg:border-l-0 lg:grid-cols-[1fr_230px_1fr]
     }
 
 
     .profile-card{
-        @apply grid grid-cols-1 grid-rows-[250px,1fr] relative z-40 items-center bg-custom-white border-custom rounded-md border-custom-black shadow-custom-black px-4 pt-4 row-start-2 row-end-4 col-start-2 col-end-2
-        md:row-start-2 md:row-end-4 md:col-start-2 md:col-end-2
+        @apply grid grid-cols-1 grid-rows-[250px,1fr] relative z-20 items-center bg-custom-white border-custom rounded-lg border-custom-black shadow-custom-black px-4 pt-4 row-start-2 row-end-4 col-start-2 col-end-2
+        lg:row-start-2 lg:row-end-4 lg:col-start-2 lg:col-end-2 lg:grid-rows-[210px,1fr]
     }
 
     .btn{
-        @apply flex justify-center w-[70%] font-body font-bold border-custom border-custom-black shadow-custom-black rounded-md text-custom-orange bg-custom-blue cursor-pointer hover:border-custom 
+        @apply flex justify-center w-[70%] font-body font-bold border-custom border-custom-black shadow-custom-black rounded-lg text-custom-orange bg-custom-blue cursor-pointer hover:border-custom 
         hover:border-custom-blue hover:shadow-custom-blue hover:bg-custom-white hover:text-black
     }
 }

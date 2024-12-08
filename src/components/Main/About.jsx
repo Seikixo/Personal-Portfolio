@@ -41,22 +41,9 @@ function About(){
             </div>
 
             <div className="about-content2" >
-
                 <div className='flex justify-end items-end row-start-1 row-end-1 col-start-1 col-end-1' >
                     <div className='size-12'>
                         <img className='animate-pulse' src={bulb} alt="" />
-                    </div>
-                </div>
-
-
-                <div className="profile-card">
-                    <div className='flex relative w-full h-full items-center justify-center '>
-                       <img className='w-full h-full object-cover absolute border-custom  border-custom-black rounded-md' src={profileImage} alt="" /> 
-                    </div>
-
-                    <div className='flex flex-col static'>
-                        <p className='font-body'>#Computer Engineer</p>
-                        <p className='font-body'>#Full Stack Web Developer</p>
                     </div>
                 </div>
 
@@ -66,10 +53,14 @@ function About(){
                     </div>
                 </div>
 
-                <div className='flex relative row-start-3 row-end-3 col-start-1 col-end-1 '>
-                    <div className='absolute left-48 top-14 size-36 
-                    md:left-40'>
-                        <img src={house} alt="" />
+                <div className="profile-card">
+                    <div className='flex relative w-full h-full items-center justify-center '>
+                       <img className='w-full h-full object-cover absolute border-custom  border-custom-black rounded-md' src={profileImage} alt="" /> 
+                    </div>
+
+                    <div className='flex flex-col static'>
+                        <p className='font-body'>#Computer Engineer</p>
+                        <p className='font-body'>#Full Stack Web Developer</p>
                     </div>
                 </div>
                 
