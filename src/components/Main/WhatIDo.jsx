@@ -1,8 +1,52 @@
+import gallery from '../../assets/gallery.png'
+import cog from '../../assets/cog.png'
+import battery from '../../assets/battery.png'
 
 function WhatIDo(){
     return(
-        <div className="min-h-screen z-30">
-            What I do
+        <div className="do-container">
+            <div>
+                <p className="font-heading text-4xl font-semibold">What I do?</p>
+            </div>
+
+            <div className="roles-content">
+
+                <div className="role-card">
+                    <div className='flex justify-evenly'>                      
+                        <p className="font-heading font-semibold text-2xl">Frontend Developer</p>
+                        <div className='size-9'>
+                            <img src={gallery} alt="" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className='font-body'>
+                            I convert UI/UX mockups from figma into web pages that is functional,
+                            ensures responsiveness across multiple device platform, 
+                            collaborates with fellow UI/UX designer, backend developer, and product manager
+                        </p>
+
+                    </div>
+                </div>
+
+                <div className="role-card">
+                    <div className='flex justify-evenly'>                      
+                        <p className="font-heading font-semibold text-2xl">Backend Developer</p>
+                        <div className='size-10'>
+                            <img src={cog} alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="role-card">
+                    <div className='flex justify-evenly'>                      
+                        <p className="font-heading font-semibold text-2xl">Fullstack Developer</p>
+                        <div className='size-10'>
+                            <img src={battery} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
