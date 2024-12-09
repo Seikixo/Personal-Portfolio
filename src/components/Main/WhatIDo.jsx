@@ -19,13 +19,16 @@ function WhatIDo(){
                         </div>
                     </div>
 
-                    <div>
+                    <div className='space-y-4'>
                         <p className='font-body'>
                             I convert UI/UX mockups from figma into web pages that is functional,
                             ensures responsiveness across multiple device platform, 
                             collaborates with fellow UI/UX designer, backend developer, and product manager
                         </p>
-
+                        <p className='font-body'>
+                            The responsibilties that I also handled included fixing bugs, adding new features,
+                            api and data integration
+                        </p>
                     </div>
                 </div>
 
