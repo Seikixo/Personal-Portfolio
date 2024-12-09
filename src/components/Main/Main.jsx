@@ -6,10 +6,8 @@ function Main(){
     return(
         <main className='flex flex-col min-h-screen z-10'>
                 <About/>
-
-                <Experience/>
-
                 <WhatIDo/>
+                <Experience/>              
         </main>
     );
 }
