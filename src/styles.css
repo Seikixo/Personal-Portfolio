@@ -9,7 +9,7 @@
     }
 
     .do-container{
-        @apply flex flex-col min-h-screen w-full items-center relative border-b-4  border-black z-30 p-8
+        @apply flex flex-col min-h-screen items-center relative border-b-4  border-black z-30 p-8
     }
 
     .exp-container{
@@ -28,18 +28,22 @@
     }
 
     .roles-content{
-        @apply flex flex-row justify-center items-center gap-12 mt-24 static
+        @apply flex flex-row flex-wrap justify-center items-center gap-12 mt-24 static
         md:flex-col
     }
 
     .exp-content{
-        @apply flex flex-col justify-center mt-24 gap-6
+        @apply flex flex-col justify-center mt-24 gap-12
     }
 
 
     .profile-card{
         @apply grid grid-cols-1 h-fit grid-rows-[260px,100px] relative z-20 items-center bg-custom-white border-custom rounded-md border-custom-black shadow-custom-black px-4 pt-4 row-start-2 row-end-4 col-start-2 col-end-2
         md:row-start-2 md:row-end-4 md:col-start-2 md:col-end-2 md:grid-rows-[240px,100px]
+    }
+
+    .cert-card{
+        @apply bg-custom-white border-custom rounded-md border-custom-black shadow-custom-black
     }
 
     .role-card{

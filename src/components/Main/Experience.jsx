@@ -14,6 +14,12 @@ import react from '../../assets/react.svg'
 import nestjs from '../../assets/nestjs.svg'
 import laravel from '../../assets/laravel.svg'
 import php from '../../assets/php.svg'
+import mysql from '../../assets/mysql.svg'
+import postgresql from '../../assets/postgresql.svg'
+import firebase from '../../assets/firebase.svg'
+import postman from '../../assets/postman.svg'
+import jairoCert from '../../assets/JairoSoft-Cert.jpg'
+import laravelUCert from '../../assets/Udemy-Laravel-Cert.jpg'
 
 function Experience(){
 
@@ -23,24 +29,39 @@ function Experience(){
         { name: 'TailwindCSS', logo: tailwind },
         { name: 'JavaScript', logo: js },
         { name: 'TypeScript', logo: ts },
-        { name: 'Node.js', logo: nodejs },
-        { name: 'Express.js', logo: express },
+        { name: 'PHP', logo: php },
         { name: 'Socket.IO', logo: socketio },
         { name: 'Leaflet', logo: leaflet },
         { name: 'Angular', logo: angular },
-        { name: 'RxJS', logo: rxjs },
         { name: 'React', logo: react },
+        { name: 'RxJS', logo: rxjs },
+        { name: 'Node.js', logo: nodejs },
+        { name: 'Express.js', logo: express },
         { name: 'NestJS', logo: nestjs },
         { name: 'Laravel', logo: laravel },
-        { name: 'PHP', logo: php },
+        { name: 'MySql', logo: mysql },
+        { name: 'PostgreSQL', logo: postgresql },
+        { name: 'Firebase', logo: firebase },
+        { name: 'Postman', logo: postman },
     ];
+
+    const certs = [
+        {name: 'Jairo-Cert', cert: jairoCert},
+        {name: 'Laravel-Udemy-Cert', cert: laravelUCert},
+    ]
 
     const logoContainer = logos.map(logo =>
         <div key={logo.logo} className="relative group">
-            <img src={logo.logo} alt={logo.name} className="h-16 w-16" />
+            <img src={logo.logo} alt={logo.name} className="h-16 w-16 md:h-12 md:w-12" />
             <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
                 {logo.name}
             </span>
+        </div>
+    );
+
+    const certContainer = certs.map(cert => 
+        <div key={cert.cert}>
+            <img src={cert.cert} alt={cert.name} className='cert-card h-72 w-[28rem]'/>
         </div>
     );
 
@@ -51,13 +72,25 @@ function Experience(){
             </div>
 
             <div className='exp-content'>
-                <div>
-                    <p className='font-heading text-3xl'>Technologies Utilized</p>
-                </div>
+                <div className='flex flex-col gap-4'>
+                    <div>
+                        <p className='font-heading font-semibold text-2xl'>Technologies Utilized</p>
+                    </div>
 
-                <div className="flex gap-2">
-                    {logoContainer}                 
-                </div>
+                    <div className="flex flex-wrap gap-2">
+                        {logoContainer}                 
+                    </div>
+                </div>    
+
+                <div className='flex flex-col gap-4'>
+                    <div>
+                        <p className='font-heading font-semibold text-2xl'>Certificates</p>
+                    </div>
+
+                    <div className='flex flex-wrap gap-12 '>
+                        {certContainer}
+                    </div>
+                </div>    
             </div>
             
         </div>

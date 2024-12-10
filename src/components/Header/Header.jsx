@@ -10,7 +10,7 @@ function Header(){
                 </div>
 
                 <div>
-                    <ul className="flex gap-8 font-body tracking-widest
+                    <ul className="flex flex-wrap gap-8 font-body tracking-widest
                     md: ">
                         <li>About Me</li>
                         <li>What I do</li>
