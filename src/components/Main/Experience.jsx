@@ -18,8 +18,9 @@ import mysql from '../../assets/mysql.svg'
 import postgresql from '../../assets/postgresql.svg'
 import firebase from '../../assets/firebase.svg'
 import postman from '../../assets/postman.svg'
-import jairoCert from '../../assets/JairoSoft-Cert.jpg'
-import laravelUCert from '../../assets/Udemy-Laravel-Cert.jpg'
+import github from '../../assets/github.svg'
+import CertGallery from './CertGallery/CertGallery'
+
 
 function Experience(){
 
@@ -43,12 +44,8 @@ function Experience(){
         { name: 'PostgreSQL', logo: postgresql },
         { name: 'Firebase', logo: firebase },
         { name: 'Postman', logo: postman },
+        { name: 'Github', logo: github },
     ];
-
-    const certs = [
-        {name: 'Jairo-Cert', cert: jairoCert},
-        {name: 'Laravel-Udemy-Cert', cert: laravelUCert},
-    ]
 
     const logoContainer = logos.map(logo =>
         <div key={logo.logo} className="relative group">
@@ -59,11 +56,7 @@ function Experience(){
         </div>
     );
 
-    const certContainer = certs.map(cert => 
-        <div key={cert.cert}>
-            <img src={cert.cert} alt={cert.name} className='cert-card h-72 w-[28rem]'/>
-        </div>
-    );
+
 
     return(
         <div className="exp-container">
@@ -86,10 +79,7 @@ function Experience(){
                     <div>
                         <p className='font-heading font-semibold text-2xl'>Certificates</p>
                     </div>
-
-                    <div className='flex flex-wrap gap-12 '>
-                        {certContainer}
-                    </div>
+                    <CertGallery />
                 </div>    
             </div>
             

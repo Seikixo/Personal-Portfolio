@@ -43,7 +43,7 @@
     }
 
     .cert-card{
-        @apply bg-custom-white border-custom rounded-md border-custom-black shadow-custom-black
+        @apply bg-custom-white border-custom rounded-md border-custom-black transform transition-transform group-hover:translate-x-[-3px] group-hover:translate-y-[-3px] shadow-custom-black group-hover:shadow-[8px_8px_0px_#000000]
     }
 
     .role-card{
