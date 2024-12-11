@@ -65,7 +65,7 @@ function Experience(){
             </div>
 
             <div className='exp-content'>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-6'>
                     <div>
                         <p className='font-heading font-semibold text-2xl'>Technologies Utilized</p>
                     </div>
@@ -75,11 +75,100 @@ function Experience(){
                     </div>
                 </div>    
 
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-6'>
                     <div>
                         <p className='font-heading font-semibold text-2xl'>Certificates</p>
                     </div>
                     <CertGallery />
+                </div> 
+
+                <div className='flex flex-wrap flex-col gap-6'>
+                    <div>
+                        <p className='font-heading font-semibold text-2xl'>Major Projects</p>
+                    </div>
+
+                    <div className='flex flex-col flex-wrap'>
+
+                        <div className='flex flex-col flex-wrap'>
+                            <div className='flex flex-col flex-wrap'>
+                                <p className='font-heading font-semibold text-xl mb-2'>
+                                    OBSENTRY University of Mindanao Student Vehicle Automated Monitoring System
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - A system that uses web app to monitor realtime data relating to gps, gas sensor, and rfid.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - It has two user type an admin and student.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - My role is Full Stack Developer.
+                                </p>
+                            </div>
+
+                            <div className='flex flex-col flex-wrap'>
+                                <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>
+                                <div className='flex flex-wrap gap-2'>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={html} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            HTML
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={css} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            CSS
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={js} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            JavaScript
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={socketio} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Socket.IO
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={leaflet} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Leaflet
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={nodejs} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Node.js
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={express} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Express.js
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={firebase} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Firebase
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={github} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Github
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
                 </div>    
             </div>
             

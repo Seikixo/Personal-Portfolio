@@ -20,12 +20,12 @@ function WhatIDo(){
                     </div>
 
                     <div className='space-y-4'>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             I convert UI/UX mockups from figma into web pages that is functional,
                             ensures responsiveness across multiple device platform, 
                             collaborates with fellow UI/UX designer, backend developer, and product manager.
                         </p>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             The responsibilties that I also handled included fixing bugs, adding new features,
                             api and data integration.
                         </p>
@@ -41,12 +41,12 @@ function WhatIDo(){
                     </div>
 
                     <div className='space-y-4'>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             I developed api along with its server side logics and database interactions
                             whether its relational database or non-relational database also I implemented
                             authorization and authentication.
                         </p>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             I tested my api using api testing applications and implemented security measures
                             with the consideration of performance optimization in the backend.
                         </p>
@@ -62,12 +62,12 @@ function WhatIDo(){
                     </div>
 
                     <div className='space-y-4'>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             As a full stack developer I developed web apps handling both Frontend
                             and Backend responsibilties. I utilized the tools that is necessary to
                             execute my task.
                         </p>
-                        <p className='font-body'>
+                        <p className='font-body tracking-wider'>
                             I use version control system and project management tools to manage the
                             progress of the development.
                         </p>
