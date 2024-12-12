@@ -4,7 +4,7 @@ import WhatIDo from './WhatIDo.jsx'
 
 function Main(){
     return(
-        <main className='flex flex-col min-h-screen z-10'>
+        <main className='flex flex-col min-h-screen z-30'>
                 <About/>
                 <WhatIDo/>
                 <Experience/>              
