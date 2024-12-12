@@ -173,7 +173,7 @@ function Experience(){
                             </div>
                         </div>
 
-                        <div className='flex flex-wrap gap-12'>
+                        <div className='flex flex-wrap gap-12 mb-8'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     EINGRESS Automated Doorlock System Version 1
@@ -187,9 +187,6 @@ function Experience(){
                                 <p className='font-body text-lg tracking-wider'>
                                     - My role is Frontend Developer.
                                 </p>
-
-                                <p className='font-body text-lg'>Web app url:</p>
-                                <a href="https://um-obsentry.onrender.com/" className='text-blue-500 underline mb-2'>https://um-obsentry.onrender.com/</a>
 
                                 <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>
                                 <div className='flex flex-wrap gap-2 mb-4'>
