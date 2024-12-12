@@ -89,7 +89,7 @@ function Experience(){
                         <p className='font-heading font-bold text-2xl'>Major Projects</p>
                     </div>
 
-                    <div className='flex flex-col flex-wrap gap-16'>
+                    <div className='flex flex-col flex-wrap gap-12'>
 
                         <div className='flex flex-wrap gap-12'>
                             <div className='flex flex-col flex-wrap'>
@@ -182,7 +182,7 @@ function Experience(){
                                     - A system that uses web app to monitor and secure the company building.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - It records the employees detail using fingerprint and rfid scanner.
+                                    - It records the employees detail of Jairosoft Inc. using fingerprint and rfid scanner.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     - My role is Frontend Developer.
@@ -218,6 +218,12 @@ function Experience(){
                                         <img src={angular} className="h-12 w-12" />
                                         <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
                                             Angular
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={rxjs} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            RxJS
                                         </span>
                                     </div>
                                     <div className='flex w-fit relative group'>
