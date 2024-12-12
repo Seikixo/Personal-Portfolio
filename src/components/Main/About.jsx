@@ -15,7 +15,7 @@ import '../../styles.css'
 
 function About(){
     return(
-        <div className="about-container">
+        <section id="about-me" className="about-container scroll-smooth">
 
             <div className="about-content1">
                 <div className='flex flex-col relative justify-end row-start-1 row-end-1  text-justify p-4 pb-0'>
@@ -95,7 +95,7 @@ function About(){
                 
             </div>
 
-        </div>
+        </section>
     );
 }
 

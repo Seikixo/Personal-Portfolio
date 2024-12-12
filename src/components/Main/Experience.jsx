@@ -60,7 +60,7 @@ function Experience(){
 
 
     return(
-        <div className="exp-container">
+        <section id="exp" className="exp-container scroll-smooth">
             <div>
                 <p className="font-heading text-4xl font-semibold">Experiences</p>
             </div>
@@ -263,7 +263,7 @@ function Experience(){
 
             </div>
             
-        </div>
+        </section>
         
     );
 }

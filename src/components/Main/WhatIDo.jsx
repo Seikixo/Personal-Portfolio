@@ -4,7 +4,7 @@ import battery from '../../assets/battery.png'
 
 function WhatIDo(){
     return(
-        <div className="do-container">
+        <section id="what-i-do" className="do-container scroll-smooth">
             <div>
                 <p className="font-heading text-4xl font-semibold">What I do?</p>
             </div>
@@ -74,7 +74,7 @@ function WhatIDo(){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
