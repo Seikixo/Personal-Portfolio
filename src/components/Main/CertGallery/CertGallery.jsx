@@ -14,14 +14,14 @@ const CertGallery = () => {
 
     return(
         <>
-        <div className='flex flex-wrap gap-12'>
+        <div className='flex justify-center flex-wrap gap-12'>
             {
                 certs.map(cert => (
                     <div key={cert.cert} className='group cursor-pointer'>
                         <motion.img 
                             src={cert.cert}
                             alt={cert.name}
-                            className='cert-card h-72 w-[28rem]'
+                            className='img-card h-72 md:h-52 w-[30rem]'
                             whileHover={{scale: 1.05}}
                             onClick={() => setSelectedImage(cert.cert)}
                         />

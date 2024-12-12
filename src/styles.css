@@ -33,7 +33,7 @@
     }
 
     .exp-content{
-        @apply flex flex-col justify-center mt-24 gap-14
+        @apply flex flex-col justify-center mt-24 gap-20
     }
 
 
@@ -42,7 +42,7 @@
         md:row-start-2 md:row-end-4 md:col-start-2 md:col-end-2 md:grid-rows-[240px,100px]
     }
 
-    .cert-card{
+    .img-card{
         @apply bg-custom-white border-custom rounded-md border-custom-black transform transition-transform group-hover:translate-x-[-3px] group-hover:translate-y-[-3px] shadow-custom-black group-hover:shadow-[8px_8px_0px_#000000]
     }
 
