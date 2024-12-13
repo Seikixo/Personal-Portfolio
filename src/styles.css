@@ -4,12 +4,13 @@
 
 @layer utilities {
     .about-container{
-        @apply grid min-h-screen w-full grid-cols-2 grid-rows-1 z-30 border-b-4 border-black
-        md:flex md:flex-col
+        @apply grid h-fit w-full grid-cols-2 grid-rows-1 z-30 border-b-4 border-black
+        md:flex md:flex-col md:min-h-screen
     }
 
     .do-container{
-        @apply flex flex-col min-h-screen w-full items-center relative border-b-4  border-black z-30 p-8
+        @apply flex flex-col h-fit w-full items-center relative border-b-4  border-black z-30 p-8
+        md:min-h-screen
     }
 
     .exp-container{
@@ -17,12 +18,12 @@
     }
 
     .about-content1{
-        @apply grid min-h-screen grid-rows-2 grid-cols-1 p-8 
+        @apply grid h-full grid-rows-2 grid-cols-1 p-8 
 
     }
 
     .about-content2{
-        @apply grid min-h-screen grid-cols-[1fr_280px_1fr] grid-rows-[1fr_260px_120px_1fr] relative bg-x-pattern   border-l-4 border-black 
+        @apply grid h-full grid-cols-[1fr_280px_1fr] grid-rows-[1fr_260px_120px_1fr] relative bg-x-pattern   border-l-4 border-black 
         md:grid-rows-[1fr_260px_100px_1fr] md:border-t-4 md:border-l-0
         sm:grid-cols-[1fr_256px_1fr]
     }
