@@ -48,7 +48,7 @@
 
     .role-card{
         @apply flex flex-col w-80 h-[28rem] bg-custom-white border-custom rounded-md border-custom-black shadow-custom-black p-4 gap-6
-        sm:w-64 
+        sm:w-64 sm:h-[32rem]
     }
 
     .btn{
