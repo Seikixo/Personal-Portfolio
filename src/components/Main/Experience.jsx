@@ -84,14 +84,14 @@ function Experience(){
                     <CertGallery />
                 </div> 
 
-                <div className='flex flex-wrap flex-col gap-8'>
+                <div className='flex flex-wrap flex-col gap-12'>
                     <div>
                         <p className='font-heading font-bold text-2xl'>Major Projects</p>
                     </div>
 
-                    <div className='flex flex-col flex-wrap gap-12'>
+                    <div className='flex flex-col flex-wrap gap-10'>
 
-                        <div className='flex flex-wrap gap-12'>
+                        <div className='flex flex-wrap gap-12 md:gap-2'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     OBSENTRY University of Mindanao Student Vehicle Automated Monitoring System
@@ -173,7 +173,7 @@ function Experience(){
                             </div>
                         </div>
 
-                        <div className='flex flex-wrap gap-12 mb-8'>
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     EINGRESS Automated Doorlock System Version 1
