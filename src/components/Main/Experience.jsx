@@ -105,6 +105,9 @@ function Experience(){
                                 <p className='font-body text-lg tracking-wider'>
                                     - My role is Full Stack Developer.
                                 </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Note: Kindly wait for its cold start.
+                                </p>
 
                                 <p className='font-body text-lg'>Web app url:</p>
                                 <a href="https://um-obsentry.onrender.com/" className='text-blue-500 underline mb-2'>https://um-obsentry.onrender.com/</a>
@@ -186,6 +189,9 @@ function Experience(){
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     - My role is Frontend Developer.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Note: I can't provide web app url because its company owned.
                                 </p>
 
                                 <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>

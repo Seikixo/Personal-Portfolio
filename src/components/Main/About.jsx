@@ -22,7 +22,7 @@ function About(){
                     <div className='size-12'>
                         <img className='animate-backAndForth' src={sky} alt="" />
                     </div>
-                    <p className='font-heading font-bold text-5xl text-wrap mb-10'>Dedicated and Committed to this craft</p>
+                    <p className='font-heading font-bold text-5xl text-wrap mb-10'>Dedicated and Committed to this craft.</p>
                     <p className='font-body font-semibold text-xl tracking-wide'>I am Vaughn Fitz Benedicto,</p>
                     <p className='font-body text-lg text-slate-700 tracking-wider'>a Computer Engineer with a expertise and hands on experience in Web Development.</p>
 
