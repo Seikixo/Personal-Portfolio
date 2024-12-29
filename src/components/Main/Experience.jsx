@@ -109,8 +109,7 @@ function Experience(){
                                     Note: Kindly wait for its cold start.
                                 </p>
 
-                                <p className='font-body text-lg'>Web app url:</p>
-                                <a href="https://um-obsentry.onrender.com/" className='text-blue-500 underline mb-2'>https://um-obsentry.onrender.com/</a>
+                                <p className='font-body text-lg'>Web app url: <a href="https://um-obsentry.onrender.com/" className='text-blue-500 underline mb-2'>https://um-obsentry.onrender.com/</a></p>
 
                                 <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>
                                 <div className='flex flex-wrap gap-2 mb-4'>
