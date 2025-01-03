@@ -97,13 +97,22 @@ function Experience(){
                                     OBSENTRY University of Mindanao Student Vehicle Automated Monitoring System
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - A system that uses web app to monitor realtime data relating to gps, gas sensor, and rfid.
+                                    - A system that uses web app to monitor data relating to gps, gas sensor, and rfid.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     - It monitors various processed data from sensors and displays it to admin and students.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - My role is Full Stack Developer.
+                                    - Realtime data monitoring.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Responsive design.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Authentication and Authorization functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Role: Full Stack Developer.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Note: Kindly wait for its cold start.
@@ -187,7 +196,13 @@ function Experience(){
                                     - It records the employees detail of Jairosoft Inc. using fingerprint and rfid scanner.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - My role is Frontend Developer.
+                                    - Authentication and Authorization functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - CRUD, Search, and Filters functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Role: Frontend Developer.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Note: I can't provide web app url because its company owned.

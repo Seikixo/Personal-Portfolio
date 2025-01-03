@@ -8,8 +8,9 @@ import ein3 from '../../../assets/ein3.png'
 import ein4 from '../../../assets/ein4.png'
 import ein5 from '../../../assets/ein5.png'
 import ein6 from '../../../assets/ein6.png'
-import ein7 from '../../../assets/ein7.jpg'
+import ein7 from '../../../assets/ein7.png'
 import ein8 from '../../../assets/ein8.jpg'
+import ein9 from '../../../assets/ein9.jpg'
 
 const einImgs = [
     {name: 'ein1', img: ein1},
@@ -20,6 +21,7 @@ const einImgs = [
     {name: 'ein6', img: ein6},
     {name: 'ein7', img: ein7},
     {name: 'ein8', img: ein8},
+    {name: 'ein9', img: ein9},
 ];
 
 const EinGallery = () => {
