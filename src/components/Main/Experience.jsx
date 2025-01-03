@@ -202,6 +202,9 @@ function Experience(){
                                     - CRUD, Search, and Filters functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
+                                    - File validations and upload.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
                                     Role: Frontend Developer.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
