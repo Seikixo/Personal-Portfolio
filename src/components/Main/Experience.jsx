@@ -112,7 +112,7 @@ function Experience(){
                                     - Authentication and Authorization functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Role: Full Stack Developer.
+                                    Role: Full Stack Developer.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Note: Kindly wait for its cold start.
