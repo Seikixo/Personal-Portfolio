@@ -3,10 +3,12 @@ import { AnimatePresence, motion } from 'motion/react';
 
 import jairoCert from '../../../assets/JairoSoft-Cert.jpg'
 import laravelUCert from '../../../assets/Udemy-Laravel-Cert.jpg'
+import efsetCert from '../../../assets/EFSET-Cert.jpg'
 
 const certs = [
     {name: 'Jairo-Cert', cert: jairoCert},
     {name: 'Laravel-Udemy-Cert', cert: laravelUCert},
+    {name: 'EFSET-Cert', cert: efsetCert},
 ]
 
 const CertGallery = () => {
