@@ -289,7 +289,7 @@ function Experience(){
                         <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
-                                    ManageBiz Inventory Management System
+                                    ManageBiz POS System
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     - A web-based system designed to streamline and manage business operations efficiently.
