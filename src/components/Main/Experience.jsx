@@ -19,9 +19,12 @@ import postgresql from '../../assets/postgresql.svg'
 import firebase from '../../assets/firebase.svg'
 import postman from '../../assets/postman.svg'
 import github from '../../assets/github.svg'
+import inertia from '../../assets/inertia.svg'
+import shadcnui from '../../assets/shadcnui.svg'
 import CertGallery from './CertGallery/CertGallery'
 import ObsGallery from './ObsGallery/ObsGallery'
 import EinGallery from './EinGallery/EinGallery'
+import MbGallery from './MbGallery/MbGallery'
 
 function Experience(){
 
@@ -36,11 +39,13 @@ function Experience(){
         { name: 'Leaflet', logo: leaflet },
         { name: 'Angular', logo: angular },
         { name: 'React', logo: react },
+        { name: 'ShadCn', logo: shadcnui },
         { name: 'RxJS', logo: rxjs },
         { name: 'Node.js', logo: nodejs },
         { name: 'Express.js', logo: express },
         { name: 'NestJS', logo: nestjs },
         { name: 'Laravel', logo: laravel },
+        { name: 'Inertia', logo: inertia },
         { name: 'MySql', logo: mysql },
         { name: 'PostgreSQL', logo: postgresql },
         { name: 'Firebase', logo: firebase },
@@ -278,6 +283,98 @@ function Experience(){
 
                             <div className='flex flex-col flex-wrap'>
                                 <EinGallery />
+                            </div>
+                        </div>
+
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
+                            <div className='flex flex-col flex-wrap'>
+                                <p className='font-heading font-semibold text-xl mb-3'>
+                                    ManageBiz Inventory Management System
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - A web-based system designed to streamline and manage business operations efficiently.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Handles records of customers, products, orders, payments, and productions.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Displays summaries and reports in dashboard.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - Authentication and Authorization functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    - CRUD, Search, and Filters functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Role: Full Stack Developer.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Note: The business owner wants it to be used locally.
+                                </p>
+
+                                <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>
+                                <div className='flex flex-wrap gap-2 mb-4'>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={html} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            HTML
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={tailwind} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Tailwind
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={js} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            JavaScript
+                                        </span>
+                                    </div>
+
+                                    <div className='flex w-fit relative group'>
+                                        <img src={react} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            React
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={inertia} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Inertia
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={shadcnui} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            ShadCn
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={laravel} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Laravel
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={postgresql} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            PostgreSQL
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={github} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Github
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex flex-col flex-wrap'>
+                                <MbGallery />
                             </div>
                         </div>
 
