@@ -102,19 +102,22 @@ function Experience(){
                                     OBSENTRY University of Mindanao Student Vehicle Automated Monitoring System
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - A system that uses web app to monitor data relating to gps, gas sensor, and rfid.
+                                • A system that uses web app to monitor data relating to gps, gas sensor, and rfid.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - It monitors various processed data from sensors and displays it to admin and students.
+                                • It monitors various processed data from sensors and displays it to admin and students.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Realtime data monitoring.
+                                • Realtime data monitoring.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Responsive design.
+                                • Responsive design.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Authentication and Authorization functionality.
+                                • Authentication and Authorization functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Duration: August 2023 - July 2024
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Role: Full Stack Developer.
@@ -195,19 +198,22 @@ function Experience(){
                                     EINGRESS Automated Doorlock System Version 1
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - A system that uses web app to monitor and secure the company building.
+                                • A system that uses web app to monitor and secure the company building.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - It records the employees detail of Jairosoft Inc. using fingerprint and rfid scanner.
+                                • It records the employees detail of Jairosoft Inc. using fingerprint and rfid scanner.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Authentication and Authorization functionality.
+                                • Authentication and Authorization functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - CRUD, Search, and Filters functionality.
+                                • CRUD, Search, and Filters functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - File validations and upload.
+                                • File validations and upload.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Duration: February 2024 - May 2024.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Role: Frontend Developer.
@@ -292,19 +298,22 @@ function Experience(){
                                     ManageBiz POS System
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - A web-based system designed to streamline and manage business operations efficiently.
+                                • A web-based system designed to streamline and manage business operations efficiently.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Handles records of customers, products, orders, payments, and productions.
+                                • Handles records of customers, products, orders, payments, and productions.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Displays summaries and reports in dashboard.
+                                • Displays summaries and reports in dashboard.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - Authentication and Authorization functionality.
+                                • Authentication and Authorization functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    - CRUD, Search, and Filters functionality.
+                                • CRUD, Search, and Filters functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Duration: February 2025 - April 2025.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Role: Full Stack Developer.
