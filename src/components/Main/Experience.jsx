@@ -25,6 +25,20 @@ import CertGallery from './CertGallery/CertGallery'
 import ObsGallery from './ObsGallery/ObsGallery'
 import EinGallery from './EinGallery/EinGallery'
 import MbGallery from './MbGallery/MbGallery'
+import { motion } from 'motion/react'
+
+const containerVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (i = 1) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.05,
+        duration: 0.4,
+        ease: 'easeOut',
+      },
+    }),
+};
 
 function Experience(){
 
@@ -53,14 +67,22 @@ function Experience(){
         { name: 'Github', logo: github },
     ];
 
-    const logoContainer = logos.map(logo =>
-        <div key={logo.logo} className="relative group">
-            <img src={logo.logo} alt={logo.name} className="h-16 w-16 md:h-12 md:w-12" />
-            <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
-                {logo.name}
-            </span>
-        </div>
-    );
+    const logoContainer = logos.map((logo, index) => (
+        <motion.div
+            key={logo.logo}
+            className="relative group"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            custom={index}
+        >
+          <img src={logo.logo} alt={logo.name} className="h-16 w-16 md:h-12 md:w-12" />
+          <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+            {logo.name}
+          </span>
+        </motion.div>
+    ));
 
 
 

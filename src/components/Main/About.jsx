@@ -12,21 +12,60 @@ import linkedinB from '../../assets/linkedin-b.png'
 import gmailO from '../../assets/gmail-o.png'
 import gmailB from '../../assets/gmail-b.png'
 import '../../styles.css'
+import { motion } from 'motion/react'
+
+const containerVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (i = 1) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.3,
+        duration: 0.6,
+        ease: 'easeOut',
+      },
+    }),
+};
 
 function About(){
     return(
         <section id="about-me" className="about-container scroll-smooth">
 
             <div className="about-content1">
-                <div className='flex flex-col relative justify-end row-start-1 row-end-1  text-justify p-4 pb-0'>
-                    <div className='size-12'>
-                        <img className='animate-backAndForth' src={sky} alt="" />
-                    </div>
-                    <p className='font-heading font-bold text-5xl text-wrap mb-10'>Dedicated and Committed to this craft.</p>
-                    <p className='font-body font-semibold text-xl tracking-wide'>I am Vaughn Fitz Benedicto,</p>
-                    <p className='font-body text-lg text-slate-700 tracking-wider'>a Computer Engineer with a expertise and hands on experience in Web Development.</p>
-
+            <motion.div 
+                className='flex flex-col relative justify-end row-start-1 row-end-1 text-justify p-4 pb-0'
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false, amount: 0.2 }}
+                >
+                <div className='size-12'>
+                    <img className='animate-backAndForth' src={sky} alt="" />
                 </div>
+
+                <motion.p
+                    className='font-heading font-bold text-5xl text-wrap mb-10'
+                    variants={containerVariants}
+                    custom={1}
+                >
+                    Dedicated and Committed to this craft.
+                </motion.p>
+
+                <motion.p
+                    className='font-body font-semibold text-xl tracking-wide'
+                    variants={containerVariants}
+                    custom={2}
+                >
+                    I am Vaughn Fitz Benedicto,
+                </motion.p>
+
+                <motion.p
+                    className='font-body text-lg text-slate-700 tracking-wider'
+                    variants={containerVariants}
+                    custom={3}
+                >
+                    a Computer Engineer with a expertise and hands on experience in Web Development.
+                </motion.p>
+            </motion.div>
                 <div className='grid grid-cols-2 grid-rows-1 row-start-2 row-end-2'>
 
                     <div className='flex flex-col justify-center col-start-1 col-end-1 gap-4 p-4'>
