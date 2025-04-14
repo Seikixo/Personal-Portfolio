@@ -332,7 +332,7 @@ function Experience(){
                                 • Authentication and Authorization functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • CRUD, Search, and Filters functionality.
+                                • CRUD, Search, Pagination, and Filters functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Duration: February 2025 - April 2025.
