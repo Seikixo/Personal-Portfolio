@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import fitzlogo from '../../assets/fitzlogo.png';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -7,8 +8,8 @@ function Header() {
     return (
         <header className="flex flex-row z-40 top-0 w-full bg-custom-beige border-b-4 border-b-black md:sticky">
             <div className="w-full p-6 flex flex-row justify-between">
-                <div className="font-heading text-2xl font-extrabold tracking-wider">
-                    <p>It fitz!</p>
+                <div className="flex flex-row font-heading text-2xl font-extrabold">
+                <img className="h-12 w-12" src={fitzlogo} alt="" />
                 </div>
 
                 <div className="flex md:hidden">
