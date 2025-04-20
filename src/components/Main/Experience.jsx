@@ -26,6 +26,7 @@ import ObsGallery from './ObsGallery/ObsGallery'
 import EinGallery from './EinGallery/EinGallery'
 import MbGallery from './MbGallery/MbGallery'
 import { motion } from 'motion/react'
+import CdGallery from './CdGallery/CdGallery'
 
 const containerVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -229,7 +230,7 @@ function Experience(){
                                 • Authentication and Authorization functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • CRUD, Search, and Filters functionality.
+                                • CRUD, Search, Filters, and Pagination functionality.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                 • File validations and upload.
@@ -317,6 +318,97 @@ function Experience(){
                         <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
+                                    Car Dealer Inc.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                • Authentication and Authorization functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                • CRUD, Search, Filters, Pagination functionality.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Duration: September 2024.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Role: Full Stack Developer.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                    Note: This is an exercise project during training.
+                                </p>
+
+                                <p className='font-body text-lg mb-2 '>Tech Stack Used:</p>
+                                <div className='flex flex-wrap gap-2 mb-4'>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={html} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            HTML
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={css} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            CSS
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={js} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            JavaScript
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={ts} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            TypeScript
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={angular} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Angular
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={rxjs} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            RxJS
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={nestjs} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Nestjs
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={postgresql} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            PostgreSQL
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={postman} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Postman
+                                        </span>
+                                    </div>
+                                    <div className='flex w-fit relative group'>
+                                        <img src={github} className="h-12 w-12" />
+                                        <span className="flex absolute bottom-14 right-10 rounded-md bg-custom-white text-black text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-1">
+                                            Github
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex flex-col flex-wrap'>
+                                <CdGallery />
+                            </div>
+                        </div>
+
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
+                            <div className='flex flex-col flex-wrap'>
+                                <p className='font-heading font-semibold text-xl mb-3'>
                                     ManageBiz POS System
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
@@ -324,6 +416,9 @@ function Experience(){
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                 • Handles records of customers, products, orders, payments, and productions.
+                                </p>
+                                <p className='font-body text-lg tracking-wider'>
+                                • Responsive layout.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                 • Displays summaries and reports in dashboard.
