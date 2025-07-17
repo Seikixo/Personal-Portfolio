@@ -1,13 +1,13 @@
 import About from './About.jsx'
-import Experience from './Experience.jsx'
-import WhatIDo from './WhatIDo.jsx'
+import ProjectsAndCerts from './ProjectsAndCerts.jsx'
+import Experiences from './Experiences.jsx'
 
 function Main(){
     return(
         <main className='flex flex-col min-h-screen z-30'>
                 <About/>
-                <WhatIDo/>
-                <Experience/>              
+                <Experiences/>
+                <ProjectsAndCerts/>              
         </main>
     );
 }

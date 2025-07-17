@@ -41,7 +41,7 @@ const containerVariants = {
     }),
 };
 
-function Experience(){
+function ProjectsAndCerts(){
 
     const logos = [
         { name: 'HTML', logo: html },
@@ -90,7 +90,7 @@ function Experience(){
     return(
         <section id="exp" className="exp-container scroll-smooth">
             <div>
-                <p className="font-heading text-4xl font-semibold">Experiences</p>
+                <p className="font-heading text-4xl font-semibold">Projects and Certificates</p>
             </div>
 
             <div className='exp-content'>
@@ -514,4 +514,4 @@ function Experience(){
     );
 }
 
-export default Experience;
+export default ProjectsAndCerts;
