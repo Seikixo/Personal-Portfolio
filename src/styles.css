@@ -13,7 +13,7 @@
         md:min-h-screen
     }
 
-    .exp-container{
+    .proj-and-cert-container{
         @apply flex flex-col min-h-screen w-full items-center z-30 p-8
     }
 

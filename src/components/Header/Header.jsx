@@ -15,8 +15,8 @@ function Header() {
                 <div className="flex md:hidden">
                     <ul className="flex flex-wrap gap-8 font-body tracking-widest">
                         <li><a href="#about-me" className="text-custom-orange hover:text-black">About Me</a></li>
-                        <li><a href="#what-i-do" className="text-custom-orange hover:text-black">What I do</a></li>
-                        <li><a href="#exp" className="text-custom-orange hover:text-black">Experiences</a></li>
+                        <li><a href="#experience" className="text-custom-orange hover:text-black">Experience</a></li>
+                        <li><a href="#projandcert" className="text-custom-orange hover:text-black">Project & Certs</a></li>
                     </ul>
                 </div>
 

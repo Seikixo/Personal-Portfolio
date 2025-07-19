@@ -88,7 +88,7 @@ function ProjectsAndCerts(){
 
 
     return(
-        <section id="exp" className="exp-container scroll-smooth">
+        <section id="projandcert" className="proj-and-cert-container scroll-smooth">
             <div>
                 <p className="font-heading text-4xl font-semibold">Projects and Certificates</p>
             </div>
