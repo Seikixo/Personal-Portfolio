@@ -119,7 +119,7 @@ function ProjectsAndCerts(){
 
                     <div className='flex flex-col flex-wrap gap-10'>
 
-                        <div className='flex flex-wrap gap-12 md:gap-2'>
+                        <div className='flex flex-wrap gap-12 md:gap-2 w-full justify-between'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     OBSENTRY University of Mindanao Student Vehicle Automated Monitoring System
@@ -131,13 +131,13 @@ function ProjectsAndCerts(){
                                 • It monitors various processed data from sensors and displays it to admin and students.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • Realtime data monitoring.
+                                • Real-time GPS tracking and location monitoring for student vehicles.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • Responsive design.
+                                • Live data dashboard with interactive visualizations
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • Authentication and Authorization functionality.
+                                • Role-based authentication system for admins and students
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Duration: August 2023 - July 2024
@@ -215,7 +215,7 @@ function ProjectsAndCerts(){
                             </div>
                         </div>
 
-                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8 w-full justify-between'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     EINGRESS Automated Doorlock System Version 1
@@ -315,7 +315,7 @@ function ProjectsAndCerts(){
                             </div>
                         </div>
 
-                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8 w-full justify-between'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     Car Dealer Inc.
@@ -406,7 +406,7 @@ function ProjectsAndCerts(){
                             </div>
                         </div>
 
-                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8'>
+                        <div className='flex flex-wrap gap-12 md:gap-2 mb-8 w-full justify-between'>
                             <div className='flex flex-col flex-wrap'>
                                 <p className='font-heading font-semibold text-xl mb-3'>
                                     ManageBiz POS System
@@ -418,7 +418,7 @@ function ProjectsAndCerts(){
                                 • Handles records of customers, products, orders, payments, and productions.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                • Responsive layout.
+                                • Fully responsive design optimized for desktop and mobile devices
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                 • Displays summaries and reports in dashboard.
