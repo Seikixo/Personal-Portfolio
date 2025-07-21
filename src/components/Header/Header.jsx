@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import fitzlogo from '../../assets/fitzlogo.png';
+import fitz from '../../assets/Fitz.png';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header className="flex flex-row z-40 top-0 w-full bg-custom-beige border-b-4 border-b-black md:sticky">
-            <div className="w-full p-6 flex flex-row justify-between">
+            <div className="w-full p-8 flex flex-row justify-between">
                 <div className="flex flex-row font-heading text-2xl font-extrabold">
-                <img className="h-12 w-12" src={fitzlogo} alt="" />
+                <img className="h-12 w-12" src={fitz} alt="" />
                 </div>
 
                 <div className="flex md:hidden">
-                    <ul className="flex flex-wrap gap-8 font-body tracking-widest">
+                    <ul className="flex flex-wrap justify-center items-center gap-8 font-body tracking-widest">
                         <li><a href="#about-me" className="text-custom-orange hover:text-black">About Me</a></li>
                         <li><a href="#experience" className="text-custom-orange hover:text-black">Experience</a></li>
                         <li><a href="#projandcert" className="text-custom-orange hover:text-black">Project & Certs</a></li>
@@ -65,20 +65,20 @@ function Header() {
                             </li>
                             <li>
                                 <a
-                                    href="#what-i-do"
-                                    className="text-custom-orange hover:text-black"
-                                    onClick={() => setIsOpen(false)}
-                                >
-                                    What I do
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#exp"
+                                    href="#experience"
                                     className="text-custom-orange hover:text-black"
                                     onClick={() => setIsOpen(false)}
                                 >
                                     Experiences
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#projandcert"
+                                    className="text-custom-orange hover:text-black"
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    Project & Certs
                                 </a>
                             </li>
                         </ul>

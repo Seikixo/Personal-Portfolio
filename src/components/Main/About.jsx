@@ -72,7 +72,7 @@ function About(){
 
                         <a className="btn group" 
                         href="https://github.com/Seikixo">
-                            <div className='relative w-5 h-5'>
+                            <div className='relative w-4 h-4'>
                                 <img className='btn-img1' src={githubO} alt="Github Default" /> 
                                 <img className='btn-img2' src={githubB} alt="Github Hover" />
                             </div>
@@ -81,7 +81,7 @@ function About(){
                         </a>
                         <a className="btn group" 
                         href="https://www.linkedin.com/in/vaughn-fitz-benedicto-aab456226/">
-                            <div className='relative w-5 h-5'>
+                            <div className='relative w-4 h-4'>
                                 <img className='btn-img1' src={linkedinO} alt="LinkedIn Default" /> 
                                 <img className='btn-img2' src={linkedinB} alt="LinkedIn Hover" />
                             </div>
@@ -90,7 +90,7 @@ function About(){
                         </a>
                         <a className='btn group' 
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=vaughnfitz27@gmail.com&su=Your+Subject+Here&body=Your+message+here">
-                             <div className='relative w-5 h-5'>
+                             <div className='relative w-4 h-4'>
                                 <img className='btn-img1' src={gmailO} alt="Gmail Default" /> 
                                 <img className='btn-img2' src={gmailB} alt="Gmail Hover" />
                             </div>
