@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import fitz from '../../assets/Fitz.png';
+import fitz from '../../assets/ItFitzLogo.svg';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
