@@ -4,11 +4,13 @@ import { AnimatePresence, motion } from 'motion/react';
 import jairoCert from '../../../assets/JairoSoft-Cert.jpg'
 import laravelUCert from '../../../assets/Udemy-Laravel-Cert.jpg'
 import efsetCert from '../../../assets/EFSET-Cert.jpg'
+import hpAgileCert from '../../../assets/HP-Agile-Cert.png'
 
 const certs = [
     {name: 'Jairo-Cert', cert: jairoCert},
     {name: 'Laravel-Udemy-Cert', cert: laravelUCert},
     {name: 'EFSET-Cert', cert: efsetCert},
+    {name: 'HP-Agile-Cert', cert: hpAgileCert},
 ]
 
 const CertGallery = () => {
