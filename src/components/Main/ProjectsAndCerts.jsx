@@ -93,9 +93,9 @@ function ProjectsAndCerts(){
                 <p className="font-heading text-4xl font-semibold">Projects and Certificates</p>
             </div>
 
-            <div className='exp-content'>
+            <div className='projandcert-content'>
 
-                <div className='flex flex-col gap-8'>
+                <div className='flex flex-col gap-8 px-8'>
                     <div>
                         <p className='font-heading font-semibold text-2xl'>Technologies Utilized</p>
                     </div>
@@ -105,14 +105,14 @@ function ProjectsAndCerts(){
                     </div>
                 </div>    
 
-                <div className='flex flex-col gap-8'>
+                <div className='flex flex-col gap-8 px-8'>
                     <div>
                         <p className='font-heading font-semibold text-2xl'>Certificates</p>
                     </div>
                     <CertGallery />
                 </div> 
 
-                <div className='flex flex-wrap flex-col gap-12'>
+                <div className='flex flex-wrap flex-col gap-12 px-8'>
                     <div>
                         <p className='font-heading font-bold text-2xl'>Major Projects</p>
                     </div>

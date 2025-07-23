@@ -33,8 +33,8 @@
         md:flex-col
     }
 
-    .exp-content{
-        @apply flex flex-col justify-center mt-10 gap-20
+    .projandcert-content{
+        @apply flex flex-col justify-center mt-10 gap-12
     }
     
     .profile-card{
