@@ -5,7 +5,7 @@ import battery from '../../assets/battery.png'
 function Experiences(){
     return(
         <section id="experience" className="experience-container scroll-smooth">
-            <div>
+            <div className='w-full text-center'>
                 <p className="font-heading text-4xl font-semibold">Experiences</p>
             </div>
 

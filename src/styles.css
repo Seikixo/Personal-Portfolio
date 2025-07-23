@@ -14,7 +14,7 @@
     }
 
     .proj-and-cert-container{
-        @apply flex flex-col min-h-screen w-full items-center z-30 p-8
+        @apply flex flex-col min-h-screen w-full items-center z-30 p-8 lg:p-2
     }
 
     .about-content1{

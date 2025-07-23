@@ -89,7 +89,7 @@ function ProjectsAndCerts(){
 
     return(
         <section id="projandcert" className="proj-and-cert-container scroll-smooth">
-            <div>
+            <div className='w-full text-center'>
                 <p className="font-heading text-4xl font-semibold">Projects and Certificates</p>
             </div>
 
