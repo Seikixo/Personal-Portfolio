@@ -45,7 +45,6 @@ function Experiences(){
                     <div className='flex flex-col items-start mb-4'>    
                         <div className='experience-duration'>
                             <p className="font-body text-sm bg-green-100 px-3 py-1 rounded-full mb-2">February 2024 - May 2024</p>
-                            <p className="font-body text-sm bg-green-100 px-3 py-1 rounded-full">August 2024 - September 2024</p>
                         </div>                  
                         <div>
                             <p className="font-heading font-semibold text-2xl">Frontend Developer - Intern</p>

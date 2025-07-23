@@ -236,7 +236,7 @@ function ProjectsAndCerts(){
                                 • File validations and upload.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
-                                    Duration: February 2024 - May 2024.
+                                    Duration: February 2024 - September 2024.
                                 </p>
                                 <p className='font-body text-lg tracking-wider'>
                                     Role: Frontend Developer.
